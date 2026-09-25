@@ -5,8 +5,8 @@
   'use strict';
 
   const CYCLE_MS = 3600; // hero dot-form cycle (design prop `cycle`, default 3.6s)
-  const ICONS = { 'Data Visualization': 'insights', 'AI / LLM': 'auto_awesome', 'Internal Analytics': 'dashboard' };
-  const TYPE_ORDER = ['Data Visualization', 'AI / LLM', 'Internal Analytics'];
+  const ICONS = { 'Data Visualization': 'insights', 'AI / LLM': 'auto_awesome', 'Internal Analytics': 'dashboard', 'AI Application': 'smart_toy' };
+  const TYPE_ORDER = ['Data Visualization', 'AI / LLM', 'AI Application', 'Internal Analytics'];
   const WHITE = 'rgba(255,255,255,0.95)', DIM = 'rgba(255,255,255,0.28)', TINT = 'rgba(178,214,242,0.95)', YEL = 'rgba(255,196,82,1)';
   const FORM_NAMES = ['Comparisons', 'Trends', 'Distributions', 'Shares', 'Indicators'];
   const N = 240;
