@@ -197,8 +197,15 @@ def parse_projects(markdown: str) -> list[dict]:
 def download_image(project: dict, previous: dict) -> str:
     """Store the visual under site/assets/projects/<slug>.<ext>; return its site path."""
     src = project.pop("image_src")
+    # Keep a fingerprint, not the URL: GitBook image URLs carry a download token.
+    project["img_ref"] = hashlib.sha256(src.encode()).hexdigest()[:16] if src else ""
     if not src:
         return ""
+    # GitBook issues a new URL per upload but may re-encode the same one on every
+    # request, so compare source URLs rather than bytes to avoid churn commits.
+    prev = previous.get(project["slug"], {})
+    if prev.get("img_ref") == project["img_ref"] and prev.get("img") and (SITE / prev["img"]).exists():
+        return prev["img"]
     try:
         blob, ctype = fetch(src)
         ext = IMAGE_TYPES.get(ctype)
@@ -252,7 +259,8 @@ def main() -> int:
     print(f"Parsed {len(projects)} projects from {SOURCE_URL}")
     for p in projects:
         if args.no_images:
-            p.pop("image_src")
+            src = p.pop("image_src")
+            p["img_ref"] = hashlib.sha256(src.encode()).hexdigest()[:16] if src else ""
             p["img"] = previous.get(p["slug"], {}).get("img", "")
         else:
             p["img"] = download_image(p, previous)
