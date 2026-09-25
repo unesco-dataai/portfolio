@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects Portfolio · UNESCO Data &amp; AI Services</title>
+<meta name="description" content="Data and AI tools that bring UNESCO programmes to a global audience — the UNESCO Data & AI Services projects portfolio.">
+<meta property="og:title" content="Projects Portfolio · UNESCO Data & AI Services">
+<meta property="og:description" content="Data and AI tools that bring UNESCO programmes to a global audience.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0077D4">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#projects">Skip to projects</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <img src="assets/img/logo-blue.png" alt="UNESCO" class="logo">
+    <div class="vr" aria-hidden="true"></div>
+    <div class="brand">Data &amp; AI Services</div>
+    <div class="spacer"></div>
+    <nav class="nav" aria-label="Sections">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#projects">Projects</a>
+      <a href="#all">All projects</a>
+      <a href="#how">How we work</a>
+    </nav>
+    <a class="btn btn-blue btn-md" href="https://unesco-dataai.github.io/unesco-project-generator/" target="_blank" rel="noopener">Propose a project</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <div class="eyebrow on-blue reveal">UNESCO Data &amp; AI Services</div>
+        <h1 class="reveal rise d1">Data and AI tools that bring UNESCO programmes to a global audience</h1>
+        <p class="lead reveal rise d2">This collection showcases our data-driven initiatives that transform how we address global challenges.</p>
+        <div class="hero-ctas reveal d3">
+          <a class="btn btn-white btn-lg" href="#projects">Explore the projects<span class="material-icons" aria-hidden="true">arrow_downward</span></a>
+          <a class="btn btn-outline-white btn-lg" href="https://unesco-dataai.github.io/unesco-project-generator/" target="_blank" rel="noopener">Propose a project<span class="material-icons" aria-hidden="true">arrow_forward</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="capabilities" class="wrap section">
+    <div class="section-head">
+      <div class="eyebrow">Our capabilities</div>
+      <h2>Our work spans traditional statistical analysis to cutting-edge machine learning applications</h2>
+    </div>
+    <div class="caps" id="caps"></div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="wrap projects-head">
+      <div class="section-head tight">
+        <div class="eyebrow">Projects portfolio</div>
+        <h2>Each project represents our commitment to harnessing data science for advancing UNESCO's mission</h2>
+      </div>
+      <div class="filters" id="filters" role="toolbar" aria-label="Filter projects by type"></div>
+    </div>
+    <div class="wrap story" id="story">
+      <div class="stage" id="stage" aria-hidden="true">
+        <div class="stage-frame">
+          <div class="browser">
+            <div class="browser-bar">
+              <i></i><i></i><i></i>
+              <div class="browser-url"><span class="material-icons" id="stage-icon">lock</span><span id="stage-domain"></span></div>
+            </div>
+            <div class="browser-view" id="panels"></div>
+          </div>
+          <div class="fig-card" id="fig-card">
+            <div class="fig-value" id="fig-value"></div>
+            <div class="fig-label" id="fig-label"></div>
+          </div>
+        </div>
+        <div class="rail" id="rail"></div>
+      </div>
+      <div class="chapters" id="chapters">
+        <noscript><p class="noscript">This page needs JavaScript to list the projects. The full portfolio is also on <a href="https://unesco.gitbook.io/unesco-data-ai/projects-portfolio">GitBook</a>.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <section id="all" class="wrap section all">
+    <div class="all-head">
+      <div class="section-head tight">
+        <div class="eyebrow">All projects</div>
+        <h2>The full portfolio at a glance</h2>
+      </div>
+      <div class="meta" id="all-count"></div>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="how" class="wrap section how">
+    <div class="section-head">
+      <div class="eyebrow">How we work</div>
+      <h2>From a programme question to a published tool</h2>
+    </div>
+    <div class="steps-wrap">
+      <div class="steps-line" aria-hidden="true"></div>
+      <div class="steps-line fill" aria-hidden="true"></div>
+      <ol class="steps">
+        <li class="step"><div class="dot"><span class="material-icons" aria-hidden="true">forum</span></div><h3>Scope</h3><p>Define the audience, the questions and the indicators with the programme team.</p></li>
+        <li class="step"><div class="dot"><span class="material-icons" aria-hidden="true">cleaning_services</span></div><h3>Collect and clean</h3><p>Gather, clean and structure the data so it can be analysed and reused.</p></li>
+        <li class="step"><div class="dot"><span class="material-icons" aria-hidden="true">insights</span></div><h3>Analyse and design</h3><p>Explore the data, then prototype the visualization, dashboard or AI tool.</p></li>
+        <li class="step"><div class="dot"><span class="material-icons" aria-hidden="true">rocket_launch</span></div><h3>Launch and evolve</h3><p>Publish the tool and keep it up to date as the programme grows.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap cta-inner">
+      <div class="cta-copy">
+        <h2>Bring your programme's data to a global audience</h2>
+        <p>As technology advances, so does our portfolio. New projects emerge while existing ones evolve, ensuring we remain at the forefront of using data to address the world's most pressing challenges.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-white btn-lg" href="https://unesco-dataai.github.io/unesco-project-generator/" target="_blank" rel="noopener">Propose a project<span class="material-icons" aria-hidden="true">arrow_forward</span></a>
+        <a class="btn btn-outline-white btn-lg" href="https://unesco.gitbook.io/unesco-data-ai/projects-portfolio" target="_blank" rel="noopener">Read the documentation</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-row">
+    <img src="assets/img/logo-blue.png" alt="UNESCO" class="logo sm">
+    <div class="footer-text">Data &amp; AI Services — Projects portfolio</div>
+    <div class="footer-meta" id="updated"></div>
+  </div>
+</footer>
+</body>
+</html>

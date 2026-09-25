@@ -1,0 +1,82 @@
+/* UNESCO Design System — Colors & Type (from the Claude Design project's
+ * colors_and_type.css). Inter + Open Sans are loaded from Google Fonts in
+ * index.html; the Arabic/CJK faces are omitted because the page is English-only. */
+
+:root {
+  /* ===== UNESCO Brand Colors ===== */
+  --unesco-blue: rgb(0, 119, 212);          /* #0077D4 — primary */
+  --unesco-blue-2: rgb(0, 105, 180);        /* #0069B4 — pressed / hover-darker */
+  --unesco-blue-deep: rgb(17, 90, 158);     /* #115A9E — Blue 2 buttons */
+  --unesco-blue-tint: rgb(178, 214, 242);   /* #B2D6F2 — soft tint */
+
+  /* Neutrals — text, lines, surfaces */
+  --color-fg-1: rgb(33, 33, 33);            /* #212121 — primary text */
+  --color-fg-2: rgb(76, 80, 84);            /* #4C5054 — secondary text */
+  --color-fg-3: rgb(127, 136, 143);         /* #7F888F — tertiary / muted */
+  --color-fg-4: rgb(177, 186, 190);         /* #B1BABE — disabled, placeholders */
+  --color-line: rgb(213, 218, 221);         /* #D5DADD — strokes, dividers */
+  --color-bg: rgb(255, 255, 255);
+  --color-bg-soft: rgb(241, 244, 246);      /* #F1F4F6 — card / footer surface */
+  --color-bg-deep: rgb(46, 46, 46);         /* #2E2E2E — dark surfaces */
+  --color-fg-on-blue: rgb(255, 255, 255);
+
+  /* Semantic accents (used sparingly) */
+  --color-red: rgb(198, 34, 0);
+  --color-orange: rgb(255, 138, 0);
+  --color-yellow: rgb(255, 196, 82);
+  --color-cream: rgb(238, 207, 147);
+
+  /* Universe / category accents */
+  --color-teal: rgb(37, 91, 107);
+  --color-aqua: rgb(161, 215, 225);
+  --color-mint: rgb(166, 221, 203);
+  --color-lavender: rgb(194, 203, 236);
+
+  /* Overlays & shadows */
+  --overlay-25: rgba(0, 0, 0, 0.25);
+  --overlay-40: rgba(0, 0, 0, 0.40);
+  --overlay-text-80: rgba(33, 33, 33, 0.80);
+  --shadow-soft: 0 8px 24px rgba(191, 201, 208, 0.37);
+  --shadow-pop: 0 12px 32px rgba(0, 0, 0, 0.12);
+
+  /* ===== Type ===== */
+  --font-sans: "Inter", "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  --fs-display: 60px;  --lh-display: 72px;
+  --fs-h1: 36px;       --lh-h1: 44px;
+  --fs-h2: 32px;       --lh-h2: 40px;
+  --fs-h3: 24px;       --lh-h3: 32px;
+  --fs-h4: 20px;       --lh-h4: 28px;
+  --fs-lead: 18px;     --lh-lead: 24px;
+  --fs-body: 16px;     --lh-body: 22px;
+  --fs-sm: 14px;       --lh-sm: 20px;
+  --fs-xs: 12px;       --lh-xs: 16px;
+
+  /* ===== Spacing (8px scale) ===== */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 72px;
+  --space-9: 96px;
+  --space-10: 120px;
+  --space-11: 240px;
+
+  /* ===== Radii ===== */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-pill: 999px;
+  --radius-circle: 50%;
+
+  --border-thin: 1px solid var(--color-line);
+
+  /* ===== Motion ===== */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 320ms;
+}

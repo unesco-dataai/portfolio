@@ -1,0 +1,52 @@
+{
+  "_comment": "Hand-curated extras merged by scripts/update_portfolio.py. Keys under 'projects' are slugs of the project names in the GitBook table. 'fig' = headline figure (value animates as a count-up when numeric), 'short' = chip label, 'links' overrides the links extracted from the description.",
+  "capabilities": [
+    { "icon": "public", "title": "Interactive data visualization", "body": "Maps, observatories and atlases that make complex information accessible.",
+      "projects": ["her-atlas", "observatory-of-killed-journalists", "profiles-enhancing-education-reviews-peer"] },
+    { "icon": "auto_awesome", "title": "AI and LLM assistants", "body": "Search tools that answer in plain language and cite their sources.",
+      "projects": ["ask-unescos-ai-assistant"] },
+    { "icon": "dashboard", "title": "Dashboards and monitoring", "body": "Power BI dashboards that track indicators and report on progress.",
+      "projects": ["dashboard-creative-cities", "dashboard-skills-for-the-future"] },
+    { "icon": "dataset", "title": "Data platforms and databases", "body": "Consolidated, searchable collections of country and programme data.",
+      "projects": ["seismic", "heritage-emergency-fund"] }
+  ],
+  "projects": {
+    "observatory-of-killed-journalists": {
+      "short": "Observatory of Killed Journalists",
+      "fig": { "text": "Since 1993", "label": "Killings of journalists documented, with judicial status of cases since 2006" },
+      "links": [
+        { "label": "Full list", "href": "https://www.unesco.org/safety-journalists/observatory/grid?hub=72609" },
+        { "label": "Statistics", "href": "https://www.unesco.org/safety-journalists/observatory/statistics?hub=72609" },
+        { "label": "Country responses", "href": "https://unesdoc.unesco.org/permalink/P-3516a4e6-b69d-473a-8e85-b019735aa873" }
+      ]
+    },
+    "atlas-de-tecnicas-del-arte-textil": {
+      "fig": { "text": "Participatory", "label": "Built with Mexican artisans participating in Original" }
+    },
+    "profiles-enhancing-education-reviews-peer": {
+      "short": "Profiles Enhancing Education Reviews",
+      "fig": { "text": "SDG 4", "label": "Country profiles on inclusion in education" }
+    },
+    "ask-unescos-ai-assistant": {
+      "short": "ASK UNESCO",
+      "fig": { "text": "Cited", "label": "Every answer references the chapter and page it was extracted from" }
+    },
+    "her-atlas": {
+      "fig": { "value": 12, "text": "12", "label": "Key indicators of legal progress toward gender equality in education" }
+    },
+    "dashboard-creative-cities": {
+      "short": "Creative Cities",
+      "fig": { "value": 7, "text": "7", "label": "Creative fields tracked across the Creative Cities Network" }
+    },
+    "dashboard-skills-for-the-future": {
+      "short": "Skills for the future",
+      "fig": { "text": "SDG 4", "label": "Business commitments for youth empowerment, monitored in one dashboard" }
+    },
+    "seismic": {
+      "fig": { "text": "Global", "label": "Seismic codes and guidelines consolidated country by country" }
+    },
+    "heritage-emergency-fund": {
+      "fig": { "value": 180, "suffix": "+", "text": "180+", "label": "Funded activities, searchable since 2015" }
+    }
+  }
+}

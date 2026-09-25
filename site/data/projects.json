@@ -1,0 +1,281 @@
+{
+  "source": "https://unesco.gitbook.io/unesco-data-ai/projects-portfolio",
+  "source_sha256": "d3677fff4f4d32154a644f4348eba8751056afd5889f8909fab5a1e13fa8008b",
+  "updated": "2026-09-25T13:27:25Z",
+  "intro": "This collection showcases our data-driven initiatives that transform how we address global challenges. The portfolio evolves continuously as we develop new approaches to data collection, cleaning, analysis, visualization, and AI implementation. Each project represents our commitment to harnessing data science for advancing UNESCO's mission. From monitoring critical global indicators to creating interactive visualizations that make complex information accessible, these tools empower decision-makers with evidence-based insights. Our work spans traditional statistical analysis to cutting-edge machine learning applications. We're constantly exploring innovative ways to collect, process, and present data that drives meaningful action. As technology advances, so does our portfolio. New projects emerge while existing ones evolve, ensuring we remain at the forefront of using data to address the world's most pressing challenges.",
+  "capabilities": [
+    {
+      "icon": "public",
+      "title": "Interactive data visualization",
+      "body": "Maps, observatories and atlases that make complex information accessible.",
+      "projects": [
+        "her-atlas",
+        "observatory-of-killed-journalists",
+        "profiles-enhancing-education-reviews-peer"
+      ]
+    },
+    {
+      "icon": "auto_awesome",
+      "title": "AI and LLM assistants",
+      "body": "Search tools that answer in plain language and cite their sources.",
+      "projects": [
+        "ask-unescos-ai-assistant"
+      ]
+    },
+    {
+      "icon": "dashboard",
+      "title": "Dashboards and monitoring",
+      "body": "Power BI dashboards that track indicators and report on progress.",
+      "projects": [
+        "dashboard-creative-cities",
+        "dashboard-skills-for-the-future"
+      ]
+    },
+    {
+      "icon": "dataset",
+      "title": "Data platforms and databases",
+      "body": "Consolidated, searchable collections of country and programme data.",
+      "projects": [
+        "seismic",
+        "heritage-emergency-fund"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "observatory-of-killed-journalists",
+      "name": "Observatory of Killed Journalists",
+      "type": "Data Visualization",
+      "url": "https://www.unesco.org/en/safety-journalists/observatory",
+      "access": "",
+      "description": [
+        {
+          "p": "This Observatory provides updated information on the killing of journalists since 1993 and on the judicial status of condemned cases since 2006. It also provides public access to country responses to UNESCO's requests for information into the judicial status of ongoing and unresolved cases. You may browse the full list of killed journalists and search for visual statistics and data."
+        }
+      ],
+      "links": [
+        {
+          "label": "Full list",
+          "href": "https://www.unesco.org/safety-journalists/observatory/grid?hub=72609"
+        },
+        {
+          "label": "Statistics",
+          "href": "https://www.unesco.org/safety-journalists/observatory/statistics?hub=72609"
+        },
+        {
+          "label": "Country responses",
+          "href": "https://unesdoc.unesco.org/permalink/P-3516a4e6-b69d-473a-8e85-b019735aa873"
+        }
+      ],
+      "img": "assets/projects/observatory-of-killed-journalists.png",
+      "short": "Observatory of Killed Journalists",
+      "fig": {
+        "text": "Since 1993",
+        "label": "Killings of journalists documented, with judicial status of cases since 2006"
+      }
+    },
+    {
+      "slug": "atlas-de-tecnicas-del-arte-textil",
+      "name": "Atlas de Técnicas del Arte Textil",
+      "type": "Data Visualization",
+      "url": "https://dataviz.unes.co/atlas-plataforma-original",
+      "access": "",
+      "description": [
+        {
+          "p": "Participatory Exercise with Mexican Artisans Participating in Original"
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/atlas-de-tecnicas-del-arte-textil.png",
+      "fig": {
+        "text": "Participatory",
+        "label": "Built with Mexican artisans participating in Original"
+      }
+    },
+    {
+      "slug": "profiles-enhancing-education-reviews-peer",
+      "name": "Profiles Enhancing Education Reviews (PEER)",
+      "type": "Data Visualization",
+      "url": "https://www.unesco.org/gem-report/en/peer/inclusion",
+      "access": "",
+      "description": [
+        {
+          "p": "Inclusion stands at the heart of the 2030 Agenda for Sustainable Development and is central to Sustainable Development Goal 4 (SDG 4), which seeks to guarantee inclusive and equitable quality education and lifelong learning opportunities for all."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/profiles-enhancing-education-reviews-peer.png",
+      "short": "Profiles Enhancing Education Reviews",
+      "fig": {
+        "text": "SDG 4",
+        "label": "Country profiles on inclusion in education"
+      }
+    },
+    {
+      "slug": "ask-unescos-ai-assistant",
+      "name": "ASK UNESCO's AI Assistant",
+      "type": "AI / LLM",
+      "url": "https://ask.unesco.org/",
+      "access": "",
+      "description": [
+        {
+          "p": "This tool has been designed to facilitate research in the Administrative Manual and related circulars, and other UNESCO Sources. It guarantees a high level of accuracy by citing the chapter and page from which the information was extracted, allowing you to cross-reference and verify the information at its original source."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/ask-unescos-ai-assistant.png",
+      "short": "ASK UNESCO",
+      "fig": {
+        "text": "Cited",
+        "label": "Every answer references the chapter and page it was extracted from"
+      }
+    },
+    {
+      "slug": "her-atlas",
+      "name": "Her Atlas",
+      "type": "Data Visualization",
+      "url": "https://www.unesco.org/en/heratlas",
+      "access": "",
+      "description": [
+        {
+          "p": "HerAtlas serves as an interactive world map, employing a color-coded scoring system to monitor 12 key indicators of legal progress toward gender equality in education. From constitutional guarantees of education without sex-based discrimination to setting a minimum marriage age of 18, the tool scrutinizes important legal aspects. HerAtlas simplifies complex legal language, making it accessible across diverse contexts and enhancing public awareness of the unalienable right to education for every individual."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/her-atlas.png",
+      "fig": {
+        "value": 12,
+        "text": "12",
+        "label": "Key indicators of legal progress toward gender equality in education"
+      }
+    },
+    {
+      "slug": "dashboard-creative-cities",
+      "name": "Dashboard - Creative Cities",
+      "type": "Internal Analytics",
+      "url": "",
+      "access": "Powerbi",
+      "description": [
+        {
+          "p": "A Power BI dashboard solution to visualize, analyze, and monitor the UNESCO Creative Cities Network data. This interactive platform will:"
+        },
+        {
+          "ul": [
+            "Track key performance indicators across the 7 creative fields (Crafts & Folk Art, Design, Film, Gastronomy, Literature, Media Arts, and Music)",
+            "Monitor cultural initiatives, collaborative projects, and events"
+          ]
+        },
+        {
+          "p": "The dashboard will support data-driven decision making for network management, facilitate knowledge sharing between cities, and highlight successful initiatives that can be scaled across the network."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/dashboard-creative-cities.png",
+      "short": "Creative Cities",
+      "fig": {
+        "value": 7,
+        "text": "7",
+        "label": "Creative fields tracked across the Creative Cities Network"
+      }
+    },
+    {
+      "slug": "dashboard-skills-for-the-future",
+      "name": "Dashboard - Skills for the future",
+      "type": "Data Visualization",
+      "url": "",
+      "access": "Powerbi",
+      "description": [
+        {
+          "p": "As part of the Global Education Coalition (GEC), the Global Skills Academy (GSA) is committed to empowering youth by enhancing employability skills and supporting their transition into the labor market. In line with Sustainable Development Goal (SDG) 4, UNESCO is launching the Skills for the Future: Business Commitment for Youth Empowerment initiative. The goal of this project is to design and implement a data-driven dashboard to monitor the impact of business commitments on youth empowerment. The dashboard will ensure alignment with SDG 4 and other related targets by providing a centralized, visual tool to track and report on progress."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/dashboard-skills-for-the-future.png",
+      "short": "Skills for the future",
+      "fig": {
+        "text": "SDG 4",
+        "label": "Business commitments for youth empowerment, monitored in one dashboard"
+      }
+    },
+    {
+      "slug": "seismic",
+      "name": "Seismic",
+      "type": "Data Visualization",
+      "url": "https://www.unesco.org/en/disaster-risk-reduction/seismic-code-platform",
+      "access": "",
+      "description": [
+        {
+          "p": "UNESCO's Global Seismic Code and Guidelines Platform consolidates data from countries around the world on their seismic codes and guidelines."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/seismic.png",
+      "fig": {
+        "text": "Global",
+        "label": "Seismic codes and guidelines consolidated country by country"
+      }
+    },
+    {
+      "slug": "heritage-emergency-fund",
+      "name": "Heritage Emergency Fund",
+      "type": "Data Visualization",
+      "url": "https://www.unesco.org/en/culture-emergencies/heritage-emergency-fund/grid?hub=195868",
+      "access": "",
+      "description": [
+        {
+          "p": "The webpage of the UNESCO Heritage Emergency Fund now includes a searchable database of all the 180+ activities it has funded since its creation in 2015"
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/heritage-emergency-fund.png",
+      "fig": {
+        "value": 180,
+        "suffix": "+",
+        "text": "180+",
+        "label": "Funded activities, searchable since 2015"
+      }
+    },
+    {
+      "slug": "ipdc-gmdf-dashboard",
+      "name": "IPDC-GMDF Dashboard",
+      "type": "Data Visualization",
+      "url": "https://dataviz.unes.co/ipdc-gmdf/?token=ipdc2025",
+      "access": "",
+      "description": [
+        {
+          "p": "Interactive dashboard providing an overview of projects supported by UNESCO’s International Programme for the Development of Communication (IPDC) and the Global Media Defence Fund (GMDF). It enables users to explore projects by country, region, thematic area and other key dimensions, with interactive maps, indicators and project-level information."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/ipdc-gmdf-dashboard.png"
+    },
+    {
+      "slug": "youth-for-peace",
+      "name": "Youth for Peace",
+      "type": "Data Visualization",
+      "url": "https://dataviz.unes.co/youth-for-peace/",
+      "access": "",
+      "description": [
+        {
+          "p": "Interactive data visualization developed to explore and analyze the results of the Youth for Peace initiative. The platform organizes survey responses into key indicators and thematic clusters, making it possible to identify common patterns, priorities and perspectives among participating youth."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/youth-for-peace.png"
+    },
+    {
+      "slug": "expertise-atlas",
+      "name": "Expertise Atlas",
+      "type": "Data Visualization",
+      "url": "https://dataviz.unes.co/expertise-atlas/",
+      "access": "",
+      "description": [
+        {
+          "p": "Interactive platform designed to map and explore expertise across UNESCO’s network. It brings together profiles, thematic areas and geographic information to help identify relevant expertise, visualize connections and support knowledge sharing across teams and regions."
+        }
+      ],
+      "links": [],
+      "img": "assets/projects/expertise-atlas.png"
+    }
+  ]
+}
